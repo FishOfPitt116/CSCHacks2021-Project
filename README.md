@@ -12,7 +12,7 @@ academic work. We're looking to learn about:
 ## Team Information
 
 Robbie Fishel
-- Pitt CS, 2024
+- Pitt CS, 2023
 - Email:  rmf105@pitt.edu
 - Discord: FishOfPitt116
 - LinkedIn: https://www.linkedin.com/in/robert-fishel-58ba59193/
