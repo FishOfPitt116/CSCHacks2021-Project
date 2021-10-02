@@ -13,12 +13,12 @@ academic work. We're looking to learn about:
 
 Robbie Fishel
 - Pitt CS, 2024
-- [Email]rmf105@pitt.edu
+- Email:  rmf105@pitt.edu
 - Discord: FishOfPitt116
-- [LinkedIn]https://www.linkedin.com/in/robert-fishel-58ba59193/
+- LinkedIn: https://www.linkedin.com/in/robert-fishel-58ba59193/
 
 Kenny Zhang
 - Pitt CS, 2024
-- [Email]kez32@pitt.edu
+- Email: kez32@pitt.edu
 - Discord:
-- [LinkedIn]
+- LinkedIn:
