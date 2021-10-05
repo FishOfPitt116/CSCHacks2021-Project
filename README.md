@@ -20,5 +20,5 @@ Robbie Fishel
 Kenny Zhang
 - Pitt CS, 2024
 - Email: kez32@pitt.edu
-- Discord:
-- LinkedIn:
+- Discord: Aquatic#1125
+- LinkedIn: https://www.linkedin.com/in/kenny-zhang-2a28761b0/
