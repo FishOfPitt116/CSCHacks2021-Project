@@ -22,3 +22,9 @@ Kenny Zhang
 - Email: kez32@pitt.edu
 - Discord: Aquatic#1125
 - LinkedIn: https://www.linkedin.com/in/kenny-zhang-2a28761b0/
+
+Caleb Tsai 
+- Pitt CS, 2023
+- Email: cat106@pitt.edu
+- Discord: CalT77#4284
+- LinkedIn: https://www.linkedin.com/in/ctsai77/
