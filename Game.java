@@ -33,7 +33,6 @@ public class Game {
         gameBoard[xPos1][yPos1] = new Node(2);
         gameBoard[xPos2][yPos2] = new Node(2);
 
-
     }
 
     public void makeMove(int xDir, int yDir) {
@@ -45,7 +44,7 @@ public class Game {
         for(int i = 0; i < size; i++) {
             s += "Row " + i + ": ";
             for(int j = 0; j < size; j++) {
-                s += gameBoard[i][j];
+                s += gameBoard[i][j].toString() + " ";
             }
             s += "\n";
         }
