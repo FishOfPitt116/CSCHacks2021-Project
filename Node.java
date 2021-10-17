@@ -28,4 +28,15 @@ public class Node {
     public void calculateWeight() {
 
     }
+
+    public boolean isEmpty() {
+        return val == 0;
+    }
+
+    public String toString() {
+        if (val == 0) {
+            return "x";
+        }
+        return "" + val;
+    }
 }
