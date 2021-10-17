@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 public class Game {
-    // 
+    
     private Node[][] gameBoard;
     private int size;
 
@@ -35,8 +37,77 @@ public class Game {
 
     }
 
-    public void makeMove(int xDir, int yDir) {
+    public void makeMove(Scanner kbd) {
+        String s = kbd.next();
 
+        if (s.equals("w")) { // up
+
+            for (int j = 0; j < size; j++) {
+                int ceiling = 0;
+                for (int i = 0; i < size; i++) {
+                    if (!gameBoard[i][j].isEmpty()) {
+                        if (i != ceiling) {
+                            gameBoard[ceiling][j] = gameBoard[i][j];
+                            gameBoard[i][j] = new Node();
+                        }
+                        ceiling++;
+                    }
+                }
+
+            }
+
+        } else if (s.equals("s")) { // down
+            
+            for (int j = 0; j < size; j++) {
+                int ceiling = size-1;
+                // int spaces = 0;
+                for (int i = size-1; i >= 0; i--) {
+                    if (!gameBoard[i][j].isEmpty()) {
+                        if (i != ceiling) {
+                            gameBoard[ceiling][j] = gameBoard[i][j];
+                            gameBoard[i][j] = new Node();
+                        }
+                        ceiling--;
+                    }
+                }
+
+            }
+
+        } else if (s.equals("a")) { // left
+            
+            for (int i = 0; i < size; i++) {
+                int ceiling = 0;
+                for (int j = 0; j < size; j++) {
+                    if (!gameBoard[i][j].isEmpty()) {
+                        if (j != ceiling) {
+                            gameBoard[i][ceiling] = gameBoard[i][j];
+                            gameBoard[i][j] = new Node();
+                        }
+                        ceiling++;
+                    }
+                }
+
+            }
+            
+        } else if (s.equals("d")) {
+            
+            for (int i = 0; i < size; i++) {
+                int ceiling = size-1;
+                for (int j = size-1; j >= 0; j--) {
+                    if (!gameBoard[i][j].isEmpty()) {
+                        if (j != ceiling) {
+                            gameBoard[i][ceiling] = gameBoard[i][j];
+                            gameBoard[i][j] = new Node();
+                        }
+                        ceiling--;
+                    }
+                }
+
+            }
+
+        } else if (s.equals("e")) {
+            System.exit(0);
+        }
     }
 
     public String toString() {
