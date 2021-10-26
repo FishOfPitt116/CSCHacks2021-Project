@@ -52,6 +52,9 @@ public class Game {
                         }
                         ceiling++;
                     }
+                    if (ceiling > 0) {
+                        (gameBoard[ceiling-1][j]).merge(gameBoard[ceiling][j]);
+                    }
                 }
 
             }
@@ -69,6 +72,9 @@ public class Game {
                         }
                         ceiling--;
                     }
+                    if (ceiling < size-1) {
+                        (gameBoard[ceiling+1][j]).merge(gameBoard[ceiling][j]);
+                    }
                 }
 
             }
@@ -85,6 +91,9 @@ public class Game {
                         }
                         ceiling++;
                     }
+                    if (ceiling > 0) {
+                        (gameBoard[ceiling-1][j]).merge(gameBoard[ceiling][j]);
+                    }
                 }
 
             }
@@ -100,6 +109,9 @@ public class Game {
                             gameBoard[i][j] = new Node();
                         }
                         ceiling--;
+                    }
+                    if (ceiling < size-1) {
+                        (gameBoard[ceiling+1][j]).merge(gameBoard[ceiling][j]);
                     }
                 }
 

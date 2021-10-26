@@ -21,12 +21,15 @@ public class Node {
 
     public void merge(Node n) {
         if (n.getVal() == val) {
-            // complete merging algorithm
+            val*=2;
+            n.setEmpty();
+            // Increase this node's value and set the node "merging into" to inactive
+            // Now, does this work considering n is method-specific?
         }
     }
 
     public void calculateWeight() {
-
+        
     }
 
     public boolean isEmpty() {
@@ -38,5 +41,10 @@ public class Node {
             return "x";
         }
         return "" + val;
+    }
+
+    public void setEmpty() {
+        val = 0;
+        weight = 0;
     }
 }
